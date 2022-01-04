@@ -11,8 +11,9 @@ h1{
 .blue{
     color:mediumblue;
      }
-section{
+.flexiable-container{
     display:flex;
+    margin-bottom: 50px;
        }
 .half{width: 50%;
 
@@ -39,4 +40,35 @@ section{
     background-image:url(image/top-banner.png);
     background-repeat: no-repeat;
     padding-left: 25px;
+}
+.dream-big{
+    background-image:url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experiance-got{
+  width:40% ;
+  box-shadow: 15px 15px 40px  gray;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 20px;
+  border-radius: 20px;
+}
+.experiance-area{
+    background-image:url(image/exp-bg.png);
+    background-repeat: no-repeat;
+} 
+#marzin-color{
+    border-left: 7px solid;
+    border-image:linear-gradient(blue, cyan) ;
+    border-image-slice: 1;
+}
+#secend-marzin-color{
+    border-left: 7px solid;
+    border-image:linear-gradient(orange, tomato) ;
+    border-image-slice: 1;   
+}
+footer p {
+    text-align: center;
+
 }
