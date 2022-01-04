@@ -18,8 +18,11 @@ h1{
 .half{width: 50%;
 
      }
-.half img{ padding-left: 10%;
+.half img{ padding-left: 30%;
            padding-bottom: 2%;
+           height: 400px;
+           width: 300px;
+
 
           }
 .fonte{
@@ -35,6 +38,7 @@ h1{
     border-radius: 5px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: papayawhip;
+    box-shadow: 5px 5px 9px gray;
 }
 .top-banner{
     background-image:url(image/top-banner.png);
